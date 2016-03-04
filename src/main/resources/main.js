@@ -14,8 +14,8 @@ var authInfo = {
 };
 
 
-var roles        = [{}];
-var permission   = [{}];
+var roles        = [];
+var permission   = [];
 
 client.remove('user', {username: 'tim'}, function (res, res_err) {
     if (res_err == null) {
